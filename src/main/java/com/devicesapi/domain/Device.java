@@ -24,8 +24,6 @@ public class Device {
     @Column(nullable = false, updatable = false)
     private Instant createdAt;
 
-    public Device() { }
-
     public Device(String name, String brand, DeviceState state) {
         this.name = name;
         this.brand = brand;
