@@ -1,4 +1,4 @@
-package com.devicesapi;
+package com.devicesapi.repository;
 
 import com.devicesapi.domain.Device;
 import com.devicesapi.domain.DeviceState;
